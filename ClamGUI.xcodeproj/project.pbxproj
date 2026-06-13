@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39578AB395583B5CC0EB96CD /* ScanEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44605B679710C24878B6DDAB /* ScanEngine.swift */; };
+		529844AACFBB2D63D906E15D /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5391F70D8E3359A973C152 /* HistoryStore.swift */; };
+		554974670254052CF5D927E7 /* QuarantineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE41304D540B7EAA8518CC7 /* QuarantineManager.swift */; };
+		58F3EE78EA02CEE09D445948 /* FreshclamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9562A92F33190E9971826AA4 /* FreshclamManager.swift */; };
+		65D858357CE21F04F998E6C0 /* UpdateAndSettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D318C22835633FDBE8986C /* UpdateAndSettingsViews.swift */; };
+		6A08D7763BD866F8A15BCE99 /* Profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46BB7F8A7A3E416FC44950 /* Profiles.swift */; };
+		746AEB4B3EBAA2F00E067F91 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F3527BA37D5272BBCA34E2 /* ScanView.swift */; };
+		90D3CC029D2E5C71F8BE4FFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88B7164D2574B7B42EA0A2C /* ContentView.swift */; };
+		986BD433A533592369EFAA1A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80889B032D35CBC36808BDB8 /* HistoryView.swift */; };
+		A386775023EE78810A162873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA8E9E76B4E03D087B1B811 /* Assets.xcassets */; };
+		C017651AF1D67425A3570CE8 /* ClamGUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE05B270C1E28855DE5E461 /* ClamGUIApp.swift */; };
+		C797887E039135635C0C7352 /* ClamAVLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005E0D9159809B8F496412E /* ClamAVLocator.swift */; };
+		D04618E4E5D3D61D4061D080 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17149313817BBB82049A93DB /* Models.swift */; };
+		D87AC9DF7146814BBC4BE708 /* SendableSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CD52C4F318AB0E36CF78AC /* SendableSupport.swift */; };
+		FCA1892A6FF0652E634756E2 /* QuarantineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF4FA50CA72F693EB1FA154 /* QuarantineView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12F3527BA37D5272BBCA34E2 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		17149313817BBB82049A93DB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1CE05B270C1E28855DE5E461 /* ClamGUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClamGUIApp.swift; sourceTree = "<group>"; };
+		4005E0D9159809B8F496412E /* ClamAVLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClamAVLocator.swift; sourceTree = "<group>"; };
+		44605B679710C24878B6DDAB /* ScanEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanEngine.swift; sourceTree = "<group>"; };
+		67D318C22835633FDBE8986C /* UpdateAndSettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateAndSettingsViews.swift; sourceTree = "<group>"; };
+		6FE41304D540B7EAA8518CC7 /* QuarantineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarantineManager.swift; sourceTree = "<group>"; };
+		80889B032D35CBC36808BDB8 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		8EF4FA50CA72F693EB1FA154 /* QuarantineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarantineView.swift; sourceTree = "<group>"; };
+		9562A92F33190E9971826AA4 /* FreshclamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshclamManager.swift; sourceTree = "<group>"; };
+		CF5391F70D8E3359A973C152 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		D4705B1F1A9884AAB313827B /* ClamGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClamGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88B7164D2574B7B42EA0A2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBA8E9E76B4E03D087B1B811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9CD52C4F318AB0E36CF78AC /* SendableSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableSupport.swift; sourceTree = "<group>"; };
+		FD46BB7F8A7A3E416FC44950 /* Profiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profiles.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3A8E27A113CDF0358C26C822 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EBA8E9E76B4E03D087B1B811 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8CC6151A0E6270887516FA14 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4005E0D9159809B8F496412E /* ClamAVLocator.swift */,
+				1CE05B270C1E28855DE5E461 /* ClamGUIApp.swift */,
+				9562A92F33190E9971826AA4 /* FreshclamManager.swift */,
+				CF5391F70D8E3359A973C152 /* HistoryStore.swift */,
+				17149313817BBB82049A93DB /* Models.swift */,
+				FD46BB7F8A7A3E416FC44950 /* Profiles.swift */,
+				6FE41304D540B7EAA8518CC7 /* QuarantineManager.swift */,
+				44605B679710C24878B6DDAB /* ScanEngine.swift */,
+				F9CD52C4F318AB0E36CF78AC /* SendableSupport.swift */,
+				BDDAA593180F4989070FE926 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B3BBE10167BC9C97CB4169F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4705B1F1A9884AAB313827B /* ClamGUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5B83CE1B6024E5F27D58A29 = {
+			isa = PBXGroup;
+			children = (
+				3A8E27A113CDF0358C26C822 /* Resources */,
+				8CC6151A0E6270887516FA14 /* Sources */,
+				B3BBE10167BC9C97CB4169F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDDAA593180F4989070FE926 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D88B7164D2574B7B42EA0A2C /* ContentView.swift */,
+				80889B032D35CBC36808BDB8 /* HistoryView.swift */,
+				8EF4FA50CA72F693EB1FA154 /* QuarantineView.swift */,
+				12F3527BA37D5272BBCA34E2 /* ScanView.swift */,
+				67D318C22835633FDBE8986C /* UpdateAndSettingsViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73DB107624729F370241A3F1 /* ClamGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E09DE3B2C10DE19987E334 /* Build configuration list for PBXNativeTarget "ClamGUI" */;
+			buildPhases = (
+				10D8154FCD1B93269A8F9FDB /* Sources */,
+				E2872D953733B895015203EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClamGUI;
+			packageProductDependencies = (
+			);
+			productName = ClamGUI;
+			productReference = D4705B1F1A9884AAB313827B /* ClamGUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64630F884F4DCDD4E2F8B5D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 16851EDB3CE3E3C3393465F7 /* Build configuration list for PBXProject "ClamGUI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B5B83CE1B6024E5F27D58A29;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B3BBE10167BC9C97CB4169F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73DB107624729F370241A3F1 /* ClamGUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2872D953733B895015203EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A386775023EE78810A162873 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10D8154FCD1B93269A8F9FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C797887E039135635C0C7352 /* ClamAVLocator.swift in Sources */,
+				C017651AF1D67425A3570CE8 /* ClamGUIApp.swift in Sources */,
+				90D3CC029D2E5C71F8BE4FFE /* ContentView.swift in Sources */,
+				58F3EE78EA02CEE09D445948 /* FreshclamManager.swift in Sources */,
+				529844AACFBB2D63D906E15D /* HistoryStore.swift in Sources */,
+				986BD433A533592369EFAA1A /* HistoryView.swift in Sources */,
+				D04618E4E5D3D61D4061D080 /* Models.swift in Sources */,
+				6A08D7763BD866F8A15BCE99 /* Profiles.swift in Sources */,
+				554974670254052CF5D927E7 /* QuarantineManager.swift in Sources */,
+				FCA1892A6FF0652E634756E2 /* QuarantineView.swift in Sources */,
+				39578AB395583B5CC0EB96CD /* ScanEngine.swift in Sources */,
+				746AEB4B3EBAA2F00E067F91 /* ScanView.swift in Sources */,
+				D87AC9DF7146814BBC4BE708 /* SendableSupport.swift in Sources */,
+				65D858357CE21F04F998E6C0 /* UpdateAndSettingsViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		261C94DC3856C1646F5AF111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2F881EC9AD3C2CDB1F1F7A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9E56BF2A6A4142BA1503B7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/ClamGUI.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Philip Choudhury. Licensed under GPL-3.0.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.philipcv.ClamGUI;
+				PRODUCT_NAME = ClamGUI;
+				SDKROOT = macosx;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E81C002E37D4646059A3E5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/ClamGUI.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Philip Choudhury. Licensed under GPL-3.0.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.philipcv.ClamGUI;
+				PRODUCT_NAME = ClamGUI;
+				SDKROOT = macosx;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16851EDB3CE3E3C3393465F7 /* Build configuration list for PBXProject "ClamGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261C94DC3856C1646F5AF111 /* Debug */,
+				2F881EC9AD3C2CDB1F1F7A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A9E09DE3B2C10DE19987E334 /* Build configuration list for PBXNativeTarget "ClamGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81C002E37D4646059A3E5E6 /* Debug */,
+				9E56BF2A6A4142BA1503B7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64630F884F4DCDD4E2F8B5D2 /* Project object */;
+}

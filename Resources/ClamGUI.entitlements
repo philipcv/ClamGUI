@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Sandbox deliberately omitted: the app execs external ClamAV binaries and
+         scans arbitrary user-selected paths. Hardened Runtime is enabled at the
+         build-settings level; no exception entitlements are required because we
+         only spawn signed-or-unsigned external processes, not load their code. -->
+</dict>
+</plist>

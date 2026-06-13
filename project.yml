@@ -1,0 +1,35 @@
+name: ClamGUI
+options:
+  bundleIdPrefix: io.github.philipcv
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+
+targets:
+  ClamGUI:
+    type: application
+    platform: macOS
+    sources:
+      - Sources
+      - path: Resources/Assets.xcassets
+    settings:
+      base:
+        PRODUCT_NAME: ClamGUI
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        # Swift 5 language mode + complete concurrency checking: builds on
+        # Xcode 15 through 26, surfaces any Sendable issue as a warning rather
+        # than an error. The code is written Swift 6-clean — flip to "6.0" to
+        # promote those checks to errors. (Note: "5.9" is a toolchain version,
+        # not a language mode, and Xcode rejects it as a SWIFT_VERSION value.)
+        SWIFT_VERSION: "5.0"
+        SWIFT_STRICT_CONCURRENCY: complete
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_ENTITLEMENTS: Resources/ClamGUI.entitlements
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+        INFOPLIST_KEY_NSHumanReadableCopyright: "Copyright © 2026 Philip Choudhury. Licensed under GPL-3.0."
+        # App Sandbox is intentionally OFF: we spawn Homebrew binaries and need
+        # arbitrary filesystem read access for scanning. Hardened Runtime stays ON.
+        ENABLE_APP_SANDBOX: NO

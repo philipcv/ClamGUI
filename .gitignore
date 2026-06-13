@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+*.swp
+
+# Xcode user-specific state (leaks username via folder names)
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+
+# Build output
+build/
+DerivedData/
+*.xcarchive
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+.swiftpm/
+
+# CocoaPods / Carthage / fastlane
+Pods/
+Carthage/Build/
+fastlane/report.xml
+fastlane/screenshots

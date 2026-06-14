@@ -41,8 +41,26 @@ You can verify the installation with:
 clamscan --version
 ```
 
-Once the signature database has been downloaded successfully, continue
-with the build steps below.
+Once the signature database has been downloaded successfully, you're
+ready to either install the prebuilt app or build from source.
+
+## Install (prebuilt)
+
+If you just want to run ClamGUI without building it yourself:
+
+1. Download the latest **`ClamGUI-v1.zip`** from the [Releases](https://github.com/philipcv/ClamGUI/releases) page.
+2. Unzip it and drag **ClamGUI.app** into `/Applications`.
+3. Make sure the **Initial ClamAV Setup** above has been completed — the app
+   shells out to the Homebrew `clamscan` / `freshclam` binaries and won't
+   work without them.
+4. Launch the app. macOS Gatekeeper may complain on first launch since the
+   binary is signed ad-hoc, not Developer-ID notarized; right-click → Open,
+   then confirm.
+5. For scanning protected locations (`~/Mail`, `~/Library`, TCC-guarded
+   dirs), grant ClamGUI **Full Disk Access** in System Settings →
+   Privacy & Security.
+
+Prebuilt users can skip the **Build** section entirely.
 
 ## Build
 

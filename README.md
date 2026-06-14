@@ -12,6 +12,38 @@ Native SwiftUI front-end for ClamAV on macOS. Wraps `clamscan` / `clamdscan` / `
 - Xcode 15+
 - ClamAV installed: `brew install clamav`, then configure `$(brew --prefix)/etc/clamav/freshclam.conf` (comment out the `Example` line) and run `freshclam` once
 
+## Initial ClamAV Setup
+
+After installing ClamAV via Homebrew, create a usable `freshclam`
+configuration and download the initial signature database:
+
+```sh
+brew install clamav
+
+# Create a working freshclam configuration from the sample
+cp "$(brew --prefix)/etc/clamav/freshclam.conf.sample" \
+   "$(brew --prefix)/etc/clamav/freshclam.conf"
+
+# Disable the Example directive
+sed -i '' 's/^Example/#Example/' \
+   "$(brew --prefix)/etc/clamav/freshclam.conf"
+
+# Download the initial signature database
+freshclam
+```
+
+Homebrew installs only `freshclam.conf.sample`; the actual
+`freshclam.conf` file must be created before `freshclam` can run.
+
+You can verify the installation with:
+
+```sh
+clamscan --version
+```
+
+Once the signature database has been downloaded successfully, continue
+with the build steps below.
+
 ## Build
 
 Option A — XcodeGen (recommended):
